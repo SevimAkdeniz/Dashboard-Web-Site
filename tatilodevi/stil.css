@@ -1,0 +1,325 @@
+@import "-apple-system,BlinkMacSystemFont,Fira Sans,Helvetica Neue,Apple Color Emoji,sans-serif";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, Fira Sans, Helvetica Neue, Apple Color Emoji, sans-serif;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color:#2E86C1 ;
+    height: 3rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    
+
+}
+#solmenu {
+    padding: 0.8rem 0;
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+    color: white;
+    background-color:#21618C;
+    width: 15rem;
+    height: 3rem;
+
+    
+}
+#enalt{
+    text-align: center;
+    position: relative;
+    top: 7rem;
+    color: #3686a0;
+    font-weight: bold;
+    border-top:solid 1px rgba(0, 0, 0, 0.1) ;
+    padding-top: 0.6rem;
+    
+}
+#solmenu i {
+    margin: 0 1.5rem;
+}
+#search input{
+    margin: 0.7rem 0;
+    width: 50rem;
+    background-color:#21618C;
+    border: solid 1px white;
+    padding: 0.3rem 0;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+#iconlar{
+    color: rgb(241, 241, 241);
+    padding: 0 2rem;
+    border-right: solid 1px white;
+    padding-right: 0;
+    margin-right: 0;
+   
+}
+#iconlar i{
+    padding: 1rem;
+}
+#sagmenu img{
+    aspect-ratio: 4/4;
+    border-radius: 30rem;
+    width: 2.5rem;
+    position: relative;
+    left:1rem;
+    top: 0.2rem;
+    
+}
+#sagmenu p{
+    position: relative;
+    bottom: 2.5rem;
+    left: 4.5rem;  
+    color: white;
+}
+#ilkp{
+    padding-top: 0.3rem;
+}
+#search input:hover{
+    color: white;
+    background-color: rgb(117, 152, 209);
+    transition: 500ms;
+}
+
+#menusol{
+    background-color:rgb(243, 243, 243);
+    width: 15rem;
+    border-right: solid 1px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    height: 100%;
+    
+    
+}
+#new{
+    background-color: orange;
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    padding: 0.2rem;
+    border-radius: 100px;
+}
+body{
+    background-color: rgb(248, 248, 248);
+}
+#ustmenu{
+    padding: 5rem 1.5rem;
+}
+#ustmenu p{
+    padding: 0.6rem 0;
+    
+}
+#ustmenu i{
+    color:rgb(161, 161, 161);
+    padding-right: 1rem;
+}
+
+
+
+#sagagit1{
+    padding-left: 5rem;
+    text-align: right;
+}
+#sagagit2{
+    padding-left: 6.2rem;
+}
+#sagagit3{
+    padding-left: 6.2rem;
+}
+#sagagit4{
+    padding-left: 4.5rem;
+}
+
+#sagagit11{
+    padding-left: 5.5rem;
+    text-align: right;
+}
+#sagagit22{
+    padding-left: 6rem;
+}
+#sagagit33{
+    padding-left: 6.3rem;
+}
+#sagagit44{
+    padding-left: 6rem;
+}
+
+
+
+
+#altmenu{
+    padding: 1.5rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+#altmenu p{
+    padding: 0.6rem 0;
+    
+}
+#altmenu i{
+    color:grey;
+    padding-right: 1rem;
+}
+#altyazı{
+    font-size: 1.5rem;
+}
+
+#hibeni{
+  padding-left: 17rem;
+  
+  position: relative;
+  bottom: 41rem;
+}
+#hibeni p {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+#tablo{
+    padding-left: 17rem;
+    position: relative;
+    bottom: 38rem;
+}
+#tablo table{
+   border: solid 1px rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+#ortatd{
+    border-right: solid 1px rgba(0, 0, 0, 0.2);
+    border-left:solid 1px rgba(0, 0, 0, 0.2);
+}
+#tablo table tr td{
+    padding: 0 5rem;
+    height: 10rem;
+    width: 20rem;
+}
+#tablo table tr td p{
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#tablo table tr td i{
+    color: grey;
+    padding-right: 0.2rem;
+}
+#tablo table tr td span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#grafikler img{
+    width: 90rem;
+    height: auto;
+    padding-left: 15.5rem;
+    position: relative;
+    bottom: 35rem;
+}
+#sonsol{
+    left: 17rem;
+    position: relative;
+    bottom: 33rem;
+    background-color: rgb(245, 245, 245);
+    width: 600px;
+    height: 660px;
+    overflow: hidden;
+    border-radius: 10px;
+    border:solid 1px rgba(0, 0, 0, 0.2);
+    
+}
+#sonsol h4{
+   border-bottom:solid 1px rgba(0, 0, 0, 0.2);
+   width: 50rem;
+   padding: 1rem;
+}
+#ustmenu i:hover{
+    color: turquoise;
+}
+.sacmalık:hover{
+    color: turquoise;
+}
+
+#sonsol h4{
+    text-decoration: none;
+    color: #363642;
+    font-weight: 700;
+    position: relative;
+    
+}
+.yazıkutu p{
+    padding: 0.3rem 0;
+    position: relative;
+    left: 4rem;
+    bottom: 3.8rem;
+}
+.yazıkutu{
+  padding-left: 1rem;
+}
+#lt{
+    width: 40px;
+    height: 40px;
+    background-color: #332b7c;
+    margin-left: 1rem;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.yazıkutu .cizgiler{
+    width: 400px;
+    height: 3px;
+    background-color: purple;
+    position: relative;
+    bottom: 3rem;
+    left: 4rem;
+}
+
+#birinci{
+    padding: 0;
+}
+#sp{
+    width: 40px;
+    height: 40px;
+    background-color: #003e8a;
+    float: left;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    margin: 1rem;
+}
+#sonsag{
+    left: 55rem;
+    position: relative;
+    bottom: 74.2rem;
+    background-color: rgb(245, 245, 245);
+    width: 600px;
+    height: 660px;
+    overflow: hidden;
+    border-radius: 10px;
+    border:solid 1px rgba(0, 0, 0, 0.2);
+}
+#sonsag h4{
+    border-bottom:solid 1px rgba(0, 0, 0, 0.2);
+    width: 50rem;
+    padding: 1rem;
+ }
+ #sonsag p{
+     padding: 1rem;
+     font-size: 0.8rem;
+     font-weight: bold;
+     color: grey;
+ }
+ 
+#sonsag div {
+    padding: 1rem 2rem;
+}
+#sonsag div span{
+    padding-left: 1rem;
+}
